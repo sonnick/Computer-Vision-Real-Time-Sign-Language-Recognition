@@ -33,3 +33,19 @@ Recognizing ASL gestures in real-time requires both accuracy and efficiency due 
 4.  Key Technologies: 
 * Machine Learning: Neural networks, specifically CNNs, for image classification.
 * Image Processing: OpenCV and ImageMagick for preprocessing images.
+
+## PREDCTING ON LIVE WEBCAM
+This final section captures live video from the default camera and processes the frames in real-time for sign language recognition. It defines a specific region of interest (ROI) within the captured frame, which is then converted to grayscale and resized to 28x28 pixels to match the input requirements of the trained model. A rectangle is drawn around the ROI for visual reference, and the model predicts the corresponding sign language letter from this region. The predicted letter is overlaid onto the original frame, allowing for real-time feedback. The loop continues to capture and process frames until the Enter key is pressed, at which point the video capture is released, and all OpenCV windows are closed. This demonstrates how we have used computer vision and machine learning for real-time sign language interpretation.
+
+## Sign for Letter   B
+<img width="505" alt="Capture B" src="https://github.com/user-attachments/assets/06027ac3-12a0-4a35-a3c1-e928bf165f8f">
+
+## Sign for Letter C
+<img width="960" alt="Cap C" src="https://github.com/user-attachments/assets/dcfb2aa4-bc8c-42a7-828a-dda4023adc5e">
+
+## Sign for Letter O
+<img width="960" alt="Capture 0" src="https://github.com/user-attachments/assets/7017a12d-ca31-4c6c-a1a2-d51b488a6bbe">
+
+
+
+
